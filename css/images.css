@@ -10,3 +10,52 @@ body {
   font-family: "Nunito", sans-serif;
   min-height: 100vh;
 }
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+img {
+    display: block;
+}
+
+.nowarp {
+    white-space: nowrap;
+}
+
+.container {
+    background-color: rgb(255, 127, 127);
+    background-image: url(../Image/mountain.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.deer-profile {
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.h1 {
+    font-size: 450%;
+    color: antiquewhite;
+    text-shadow: 2px 2px 5px red;
+}
+
+.profile-pic-figure {
+    width: 35%;
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double grey;
+    border-radius: 50%;
+}
