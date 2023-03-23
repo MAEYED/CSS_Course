@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+body {
+    font-size: 30px;
+    font-family:'Fasthand', cursive;
+}
+
+main {
+    font-family:'Fasthand', cursive;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.highlight {
+    background-color: greenyellow;
+}
+
+#pchild {
+    color: cornflowerblue;
+}
+
+/*ul .liclass {
+    color: red;
+    font-size: 70;
+}*/
+
+a {
+    font-size: 44px;
+    color: yellow;
+    
+}
+
+a:focus {
+    color: chartreuse;
+}
+
+a:hover {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+}
+
+ul {
+    list-style-type: square;
+    text-align: left;
+    list-style-position: inside;
+    font-size: 24px;
+    font-weight: 700;
+    list-style-image: url(/Image/checklist.png);
+}
+
+ul li:not(:last-child) {
+    color: burlywood;
+}
+
+/* CSS Display */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0.5rem;
+}
